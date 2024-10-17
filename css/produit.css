@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    /* margin: 10px 50px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    padding: 10px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+header nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.btn{
+    width: 200px;
+    height: 35px;
+    background-color: #111B47;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+header nav .btn:hover{
+    width: 200px;
+    height: 35px;
+    background-color: #ffffff;
+    color: #111B47;
+    border: 1px solid #111B47;
+    cursor: pointer;
+}
+
+.logo{
+    align-self: center;
+}
+
+.container{
+    background-image: url(../image/back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 150px;
+
+}
+.container .container_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .container_contact div{
+        /* border: 2px solid red; */
+}
+.container .container_contact div h1{
+    line-height: 1.6;
+    font-weight: bolder;
+    padding-left: 90px;
+    font-size: xx-large;
+}
+.container .container_contact div img{
+    height: 300px;
+    margin-top: 80px;
+}
+
+.container_product{
+    margin-top: 20px;
+    margin-bottom: 100px ;
+}
+
+
+.les_produit{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 100vw;
+    margin: 35px;
+    border-radius: 20px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 30px;
+
+}
+
+.les_produit .product_column{
+    border: 1px solid black;
+    height: 420px;
+    margin: 20px;
+    width: 20%;
+    box-shadow: 6px 8px 15px 0px #808080c7;
+    border-radius: 10px;
+}
+
+.search{
+    display: flex;
+    margin-left: 20px;
+}
+
+.search input{
+    width: 300px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-bottom: 2px solid;
+}
+.search img{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: 2px solid black;
+}
+
+.les_produit div img{
+    width: 80%;
+    padding-left: 20px;
+}
+
+.les_produit div h3{
+    margin: 20px;
+    font-size: small;
+}
+
+.les_produit div span{
+    display: block;
+    margin: 20px;
+    color: red;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.les_produit div button{
+    max-width: 90%;
+    width: 80%;
+    margin: 20px;
+    height: 35px;
+    background-color: #fff;
+    color: #111B47;
+    border: 1px solid #111B47;
+    cursor: pointer;
+}
+.les_produit div button:hover{
+    max-width: 90%;
+    width: 80%;
+    margin: 20px;
+    height: 35px;
+    background-color:#E7ECFF;
+    color: #111B47;
+    border: 2px solid #111B47;
+    cursor: pointer;
+}
+
+
+
+.container_footer{
+    background-color: #E7ECFF;
+    padding: 50px;
+}
+.container_footer .one_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.container_footer .two_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.container_footer .one_footer .btn_thir{
+    width: 200px;
+    height: 35px;
+    background-color: #111B47;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.container_footer .two_footer div ul {
+    display: flex;
+
+}
+.container_footer .two_footer div ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    padding-top: 20px;
+}
+.container_footer .two_footer div ul li a{
+    text-decoration: none;
+    color: #000000c1;
+}
+.container_footer .two_footer div img{
+    justify-content: space-between;
+    margin-right: 25px;
+    padding-top: 20px;
+}
+
+
+
