@@ -63,6 +63,7 @@ header nav .btn:hover{
     background-image: url(../image/back.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 50vh;
     margin-bottom: 150px;
 
