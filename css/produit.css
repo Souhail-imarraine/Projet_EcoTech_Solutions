@@ -8,7 +8,7 @@
 body{
     background-color: rgb(255, 255, 255);
     /* margin: 10px 50px; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -72,9 +72,7 @@ header nav .btn:hover{
     justify-content: space-between;
     align-items: center;
 }
-.container .container_contact div{
-        /* border: 2px solid red; */
-}
+
 .container .container_contact div h1{
     line-height: 1.6;
     font-weight: bolder;
